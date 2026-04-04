@@ -29,26 +29,33 @@ O sistema deve processar três situações distintas utilizando `if`, `else if` 
 O fiscal insere a porcentagem de sólidos de cacau encontrada na amostra.
 * **Regras:**
     * Se o teor for **menor que 25%**: Exibir
+    
       "ALERTA: Produto 'Fake'. Classificar como 'Sabor Chocolate'".
     * Se o teor estiver **entre 25% (inclusive) e 35% (exclusive)**: Exibir
+    
       "Chocolate Comum (Padrão Nacional Atual)".
     * Se o teor for **35% ou mais**: Exibir
+    
       "Chocolate de Alta Qualidade (Padrão Internacional/UE)".
 
 **2ª Situação: Verificação de Categoria e Rótulo (Uso de `String` e `int`)**
 O sistema recebe o tipo de chocolate ("AO_LEITE" ou "AMARGO") e a quantidade de gramas de açúcar por porção (int).
 * **Regras:**
     * Se o tipo for **"AO_LEITE"** e o açúcar for **maior que 15g**: Exibir
+    
       "Classificação: Doce de leite com cacau (Excesso de açúcar)".
     * Caso contrário, exibir
+    
       "Classificação: Chocolate balanceado".
 
 **3ª Situação: Precificação de Exportação (Uso de `double` e Operadores Lógicos)**
 O sistema recebe o preço do ovo de Páscoa (double) e a nota de pureza (de 0 a 10).
 * **Regras:**
     * Se o preço for **maior que R$ 100.00** OU a nota de pureza for **menor que 5**: Exibir
+    
       "REJEITADO PARA EXPORTAÇÃO: Custo-benefício fora dos padrões".
     * Caso contrário: Exibir
+    
       "APROVADO: Produto competitivo para o mercado externo".
 
 ---
